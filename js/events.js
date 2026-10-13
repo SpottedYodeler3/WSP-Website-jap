@@ -52,8 +52,8 @@ function createEventCard(event) {
 const eventsData = [
     {
         image: "./assets/images/highlights/Right-Highlight.jpg",
-        date: "Tokyo, Japan",
-        title: "学生ピッチ甲子園2026全国大会",
+        date: "2027年5月22日（土）東京ビッグサイト",
+        title: "学生ピッチ甲子園2027全国大会",
         description: "世界トップクラスの学生スタートアップチームが優勝をかけて競い合います。ピッチ、審査、ネットワーキングが一体となったエキサイティングなイベント。栄冠を手にするのは誰だ！？",
         register: "",
         prize: "賞金￥10,000,000 ",
@@ -118,47 +118,25 @@ nextBtn.addEventListener("click", () => {
 const pastEventsData = [
     {
         image: "./assets/images/events/pastEvents2/1-jp.jpg",
-        date: "2月21日(土)開催",
-        title: "北陸・東海予選",
-        description: "STATION Ai (名古屋)",
-        link: ""
-    },
-    {
-        image: "./assets/images/events/pastEvents2/2.png",
-        date: "3月7日(土)開催",
-        title: "中国・四国予選",
-        description: "イノベーション・ハブ・ひろしま (広島)",
-        link: ""
-    },
-    {
-        image: "./assets/images/events/pastEvents2/3.jpg",
-        date: "3月開催",
-        title: "関西予選",
-        description: "近畿大学KINCUBA Basecamp (東大阪)",
-        link: ""
-    },
-    {
-        image: "./assets/images/events/pastEvents2/4.jpg",
-        date: "3月17日(火)開催",
-        title: "九州予選",
-        description: "GROWTH1 (福岡)",
-        link: ""
+        date: "12月16日(水)開催",
+        title: "名古屋予選",
+        description: "SLOW ART CENTER NAGOYA (名古屋)",
+        link: "./nagoya.html"
     },
     {
         image: "./assets/images/events/pastEvents2/5.jpg",
-        date: "3月18日（水）開催",
+        date: "日程未定",
         title: "関東予選",
-        description: "Tokyo Innovation Base (東京)",
-        link: ""
+        description: "会場未定 (東京)",
+        link: "./tokyo.html"
     },
     {
-        image: "./assets/images/events/pastEvents2/6.jpg",
-        date: "３月２２日（日）開催",
-        title: "北海道・東北予選",
-        description: "enspace (仙台)",
-        link: ""
+        image: "./assets/images/events/pastEvents2/3.jpg",
+        date: "3月開催予定",
+        title: "関西予選",
+        description: "大阪市中央公会堂 (大阪)",
+        link: "./osaka.html"
     }
-
 ];
 
 const createPastEventCard = (event) => {
