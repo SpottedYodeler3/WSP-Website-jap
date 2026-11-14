@@ -125,21 +125,22 @@ const pastEventsData = [
         link: "./nagoya.html"
     },
     {
-        //Tokyo
-        image: "./assets/images/highlights/2026-1.jpeg",
-        date: "日程未定",
-        title: "関東予選",
-        description: "会場未定 (東京)",
-        link: "./tokyo.html"
-    },
-    {
         //Osaka
         image: "./assets/images/highlights/2026-2.jpeg",
         date: "3月2日(火)開催",
-        title: "関西予選",
+        title: "大阪予選",
         description: "大阪市中央公会堂 (大阪)",
         link: "./osaka.html"
+    },
+    {
+        //Tokyo
+        image: "./assets/images/highlights/2026-1.jpeg",
+        date: "3月中開催",
+        title: "東京予選", 
+        description: "会場未定 (東京)",
+        link: "./tokyo.html"
     }
+   
 ];
 
 const createPastEventCard = (event) => {
